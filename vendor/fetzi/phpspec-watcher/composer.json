@@ -1,0 +1,34 @@
+{
+    "name": "fetzi/phpspec-watcher",
+    "description": "phpspec-watcher is a cli tool for the automatic execution of phpspec tests when code changes",
+    "authors": [
+        {
+            "name": "Johannes Pichler",
+            "email": "github@johannespichler.com",
+            "homepage": "https://johannespichler.com",
+            "role": "Maintainer"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/fetzi/phpspec-watcher",
+    "require": {
+        "php": "^7.0",
+        "jolicode/jolinotif": "^1.2 || ^2.0.0",
+        "react/event-loop": "^0.4.3",
+        "symfony/console": "^3.2 || ^4.0",
+        "symfony/process": "^3.2 || ^4.0",
+        "symfony/yaml": "^3.2 || ^4.0",
+        "yosymfony/resource-watcher": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fetzi\\PhpspecWatcher\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "bin": [
+        "phpspec-watcher"
+    ]
+}

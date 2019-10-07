@@ -1,0 +1,12 @@
+fileMask: '*.php'
+checkInterval: 1
+directories:
+    - app
+    - src
+    - spec
+phpspec:
+    binary: vendor/bin/phpspec
+    arguments: [format=dot]
+notifications:
+    onError: true
+    onSuccess: true

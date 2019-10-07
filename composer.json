@@ -1,0 +1,14 @@
+{
+  "require" : {
+      "phpspec/phpspec" : "~4.2.0",
+    "ext-http": "*"
+  },
+  "autoload": {
+      "psr-4": {
+          "" : "src"
+      }
+  },
+  "require-dev": {
+    "fetzi/phpspec-watcher": "^1.0"
+  }
+}
